@@ -293,5 +293,41 @@ header .main-menu {
 }
 
 footer {
-    margin-top: 20px;
+    margin-top: 0px;
+}
+
+.about-sec {
+    margin-bottom: 0;
+}
+
+.content-pagenation {
+    padding: 35px 0;
+    text-align: right;
+}
+
+.content-pagenation li {
+    display: inline-block;
+}
+
+.content-pagenation li a {
+    color: #303030;
+    font-size: 0.8em;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    background: #FFF;
+    padding: 10px 12px;
+    box-shadow: 0px 0px 5px #ADADAD;
+    -webkit-box-shadow: 0px 0px 2px #ADADAD;
+    -moz-box-shadow: 0px 0px 2px #ADADAD;
+    -o-box-shadow: 0px 0px 2px #ADADAD;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    -ms-transition: all .5s;
+    transition: all .5s;
+}
+
+.content-pagenation li a:hover,
+.content-pagenation li.active a {
+    background: #303030;
+    color: #FFF;
 }
