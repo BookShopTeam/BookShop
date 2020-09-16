@@ -1,0 +1,192 @@
+﻿footer {
+    padding-top: 1px;
+}
+
+footer .copy-right {
+    padding: 10px 0px;
+}
+
+.butDanhMucSach {
+    background-color: rgba(255, 151, 0, 0.72);
+    color: rgba(25, 77, 196, 0.66)
+}
+
+.gioiThieuBookStore h2 {
+    text-align: center;
+    color: rgba(255, 193, 7, 0.74);
+}
+
+.gioiThieuBookStore p {
+    text-align: justify;
+}
+
+.singleProduct {
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.anhKemSP {
+    margin-left: 10px;
+}
+
+.khungSPDon {
+    height: 20%;
+}
+
+.khungSPDon h1 {
+    font-size: 20px;
+}
+
+.product-sec .slider-content ul li span {
+    width: 120px;
+    font-weight: 400;
+}
+
+.product-sec .slider-content ul li span.price {
+    width: 150px;
+}
+
+.product-sec .slider-content ul li span.final {
+    font-size: 18px;
+}
+
+.buttonXemThem {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.a .row .item img {
+    height: 200px;
+}
+
+footer .timing pre {
+    color: rgba(128, 128, 128, 0.68);
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-family: monospace, sans-serif;
+}
+
+footer .navigation1 li a {
+    color: rgba(128, 128, 128, 0.68);
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-family: monospace, sans-serif;
+}
+
+footer .address1 h6 {
+    color: rgba(128, 128, 128, 0.68);
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-family: monospace, sans-serif;
+}
+
+.features-sec .container .row .hotro {
+    display: flex;
+    flex-grow: 1;
+}
+
+.anhGTTrangchu .row .col-sm-5 img {
+    width: 200px;
+    height: 100%;
+    background-color: aqua;
+    text-align: justify;
+    margin-top: 20%;
+}
+
+footer .address1 {
+    margin-left: 50px;
+}
+
+footer .timing {
+    margin-left: 50px;
+}
+
+footer .navigation1 {
+    margin-left: 50px;
+}
+
+body {
+    text-align: justify;
+}
+
+@media (min-width: 578px) and (max-width: 780px) {
+    #anhgioiThieuHome {
+        margin-bottom: 30%;
+        margin-top: 30%;
+    }
+}
+
+@media (min-width: 781px) and (max-width: 992px) {
+    #anhgioiThieuHome {
+        margin-bottom: 30%;
+        margin-top: 15%;
+    }
+}
+
+@media (min-width: 220px) and (max-width: 410px) {
+    footer .address1 h6 {
+        font-size: 8px;
+    }
+    footer h4 {
+        font-size: 12px;
+    }
+    footer .navigation1 li a {
+        font-size: 8px;
+    }
+    footer .timing pre {
+        font-size: 8px;
+    }
+}
+
+@media(max-width: 219px) {
+    footer .address1 h6 {
+        font-size: 6px;
+    }
+    footer h4 {
+        font-size: 10px;
+    }
+    footer .navigation1 li a {
+        font-size: 6px;
+    }
+    footer .timing pre {
+        font-size: 6px;
+    }
+}
+
+@media (min-width: 761px) and (max-width: 992px) {
+    footer .address1 h6 {
+        font-size: 12px;
+    }
+    footer h4 {
+        font-size: 16px;
+    }
+    footer .navigation1 li a {
+        font-size: 12px;
+    }
+    footer .timing pre {
+        font-size: 12px;
+    }
+}
+
+.recent-book-sec .container img {
+    height: 300px;
+}
+
+.recent-book-sec .container .item {
+    background-color: rgba(134, 109, 33, 0.44);
+}
+
+.recomended-sec .container img {
+    height: 200px;
+}
+
+.slider .slide {
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1.2%;
+    margin-bottom: 2%;
+}
+
+.singleProduct {
+    height: 200px;
+}

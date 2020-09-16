@@ -1,0 +1,222 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#03a6f3">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/YourStyle.css" />
+    <link rel="stylesheet" href="css/myStyle.css" />
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5"><a href="#" class="web-url">www.ShopQuocViet.com</a></div>
+                    <div class="col-md-4 tenShop">
+                        <h5>Nhà sách Quốc Việt</h5>
+                    </div>
+                    <div class="col-md-3">
+                        <span class="ph-number">SĐT: 0906 275 011</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-menu">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="navbar-item active">
+                                <a href="TrangChu.html" class="nav-link">Trang chủ</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="shop.html" class="nav-link">Danh mục sách</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="about.html" class="nav-link">Thông tin</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="DangNhap.html" class="nav-link">Đăng nhập</a>
+                            </li>
+                        </ul>
+                        <div class="cart my-2 my-lg-0">
+                            <span>
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </span>
+                            <span class="quntity">3</span>
+                        </div>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm..." aria-label="Search">
+                            <span class="fa fa-search"></span>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <h2 class="text-center">Hướng dẫn thiết giao diện trang giỏ hàng bằng Bootstrap</h2>
+    <div class="container">
+        <table id="cart" class="table table-hover table-condensed">
+            <thead>
+                <tr>
+                    <th style="width:50%">Tên sản phẩm</th>
+                    <th style="width:10%">Giá</th>
+                    <th style="width:8%">Số lượng</th>
+                    <th style="width:22%" class="text-center">Thành tiền</th>
+                    <th style="width:10%"> </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-th="Product">
+                        <div class="row">
+                            <div class="col-sm-2 hidden-xs">
+                                <img src="http://hocwebgiare.com/thiet_ke_web_chuan_demo/shopping_cart/images/090.jpg" alt="Sản phẩm 1" class="img-responsive" width="100">
+                            </div>
+                            <div class="col-sm-10">
+                                <h4 class="nomargin">Sản phẩm 1</h4>
+                                <p>Mô tả của sản phẩm 1</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td data-th="Price">200.000 đ</td>
+                    <td data-th="Quantity">
+                        <input class="form-control text-center" value="1" type="number">
+                    </td>
+                    <td data-th="Subtotal" class="text-center">200.000 đ</td>
+                    <td class="actions" data-th="">
+                        <button class="btn btn-info btn-sm">
+                            <i class="fa fa-edit"></i>
+                        </button>
+                        <button class="btn btn-danger btn-sm">
+                            <i class="fa fa-trash-o"></i>
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td data-th="Product">
+                        <div class="row">
+                            <div class="col-sm-2 hidden-xs">
+                                <img src="http://hocwebgiare.com/thiet_ke_web_chuan_demo/shopping_cart/images/174.jpg" alt="Sản phẩm 1" class="img-responsive" width="100">
+                            </div>
+                            <div class="col-sm-10">
+                                <h4 class="nomargin">Sản phẩm 2</h4>
+                                <p>Mô tả của sản phẩm 2</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td data-th="Price">300.000 đ</td>
+                    <td data-th="Quantity">
+                        <input class="form-control text-center" value="1" type="number">
+                    </td>
+                    <td data-th="Subtotal" class="text-center">300.000 đ</td>
+                    <td class="actions" data-th="">
+                        <button class="btn btn-info btn-sm">
+                            <i class="fa fa-edit"></i>
+                        </button>
+                        <button class="btn btn-danger btn-sm">
+                            <i class="fa fa-trash-o"></i>
+                        </button>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr class="visible-xs">
+                    <td class="text-center">
+                        <strong>Tổng 200.000 đ</strong>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="http://hocwebgiare.com/" class="btn btn-warning"><i class="fa fa-angle-left"></i> Tiếp tục mua hàng</a>
+                    </td>
+                    <td colspan="2" class="hidden-xs"> </td>
+                    <td class="hidden-xs text-center">
+                        <strong>Tổng tiền 500.000 đ</strong>
+                    </td>
+                    <td>
+                        <a href="http://hocwebgiare.com/" class="btn btn-success btn-block">Thanh toán <i class="fa fa-angle-right"></i></a>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="address1">
+                        <br />
+                        <br />
+                        <h4>Địa chỉ</h4>
+                        <h6>
+                            136 Hoàng Quốc Việt,
+                            Bắc Từ Liêm, Hà Nội
+                        </h6>
+                        <h6>Số điện thoại : 800 1234 5678</h6>
+                        <h6>Email : ShopQuocViet@gmail.com</h6>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="timing">
+                        <br />
+                        <br />
+                        <h4>Thời gian mở cửa</h4>
+                        <pre>Thứ 2 - Thứ 6: 7h - 10h</pre>
+                        <pre>​​Thứ 7:         8h - 10h</pre>
+                        <pre>​Chủ nhật:      8h - 11h</pre>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="navigation1">
+                        <br />
+                        <br />
+                        <h4>Shop Quốc Việt</h4>
+                        <ul>
+                            <li><a href="index.html">Trang chủ</a></li>
+                            <li><a href="about.html">Giới thiệu</a></li>
+                            <li><a href="privacy-policy.html">Chính sách giao hàng</a></li>
+                            <li><a href="terms-conditions.html">Chinh sách đổi trả</a></li>
+                            <li><a href="">Shop Quốc Việt trên facebook</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5>Công ty trách nhiệm hữu hạn Quang Việt</h5>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="share align-middle">
+                            <span class="fb"><i class="fa fa-facebook-official"></i></span>
+                            <span class="instagram"><i class="fa fa-instagram"></i></span>
+                            <span class="twitter"><i class="fa fa-twitter"></i></span>
+                            <span class="pinterest"><i class="fa fa-pinterest"></i></span>
+                            <span class="google"><i class="fa fa-google-plus"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

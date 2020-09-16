@@ -1,0 +1,86 @@
+﻿<style type="text/css">.table&amp;amp;gt;tbody&amp;amp;gt;tr&amp;amp;gt;td, .table&amp;amp;gt;tfoot&amp;amp;gt;tr&amp;amp;gt;td {  
+vertical-align: middle;
+}
+ 
+.text-center{
+color: #fcba68;
+}
+
+.btn_control{
+display: block;
+width: 100%;
+padding: .6rem 1rem;
+font-size: 1rem;
+line-height: 1.5;
+color: #495057;
+background-clip: padding-box;
+border: 1px solid #ced4da;
+}
+
+.cart-footer{
+z-index: 2;
+position: -webket-sticky;
+position: sticky;
+bottom: 0;
+
+display: grid;
+grid-template-columns: 1fr 20.3125rem 11.875rem;
+-webkit-box-align: center;
+align-items: center;
+box-sizing: border-box;
+background: #fff;
+width: 100%;
+-webkit-box-flex: 1;
+flex: 1;
+font-size: 1rem;
+margin-top: .75rem;
+}
+
+@media screen and (max-width: 600px) { 
+table#cart tbody td .form-control { 
+width:20%; 
+display: inline !important;
+} 
+ 
+.actions .btn { 
+width:36%; 
+margin:1.5em 0;
+} 
+ 
+.actions .btn-info { 
+float:left;
+} 
+ 
+.actions .btn-danger { 
+float:right;
+} 
+ 
+table#cart thead {
+display: none;
+} 
+ 
+table#cart tbody td {
+display: block;
+padding: .6rem;
+min-width:320px;
+} 
+ 
+table#cart tbody tr td:first-child {
+background: #333;
+color: #fff;
+} 
+ 
+table#cart tbody td:before { 
+content: attr(data-th);
+font-weight: bold; 
+display: inline-block;
+width: 8rem;
+} 
+ 
+table#cart tfoot td {
+display:block;
+} 
+table#cart tfoot td .btn {
+display:block;
+}
+}</style>
