@@ -169,11 +169,7 @@ body {
 }
 
 .recent-book-sec .container img {
-    height: 300px;
-}
-
-.recent-book-sec .container .item {
-    background-color: rgba(134, 109, 33, 0.44);
+    height: 250px;
 }
 
 .recomended-sec .container img {
@@ -181,8 +177,6 @@ body {
 }
 
 .slider .slide {
-    margin-left: 3%;
-    margin-right: 3%;
     margin-top: 1.2%;
     margin-bottom: 2%;
 }
@@ -421,6 +415,9 @@ footer {
     .content-pagenation {
         font-size: 0.4em;
     }
+    .btn {
+        font-size: 4px;
+    }
 }
 
 @media screen and (max-width: 280px) {
@@ -429,4 +426,8 @@ footer {
         width: 50%;
         margin-bottom: 20px;
     }
+}
+
+.butXemNB {
+    margin-top: 1em;
 }
