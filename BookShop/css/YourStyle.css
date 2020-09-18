@@ -21,8 +21,9 @@ footer .copy-right {
 }
 
 .singleProduct {
-    margin-left: 100px;
+    margin-left: 10%;
     margin-bottom: 20px;
+    margin-right: 20%;
 }
 
 .anhKemSP {
@@ -31,10 +32,6 @@ footer .copy-right {
 
 .khungSPDon {
     height: 20%;
-}
-
-.khungSPDon h1 {
-    font-size: 20px;
 }
 
 .product-sec .slider-content ul li span {
@@ -418,6 +415,21 @@ footer {
     .btn {
         font-size: 4px;
     }
+    .product-sec .slider-content ul {
+        list-style: none;
+        width: 80%;
+        margin-bottom: 10px;
+        float: center;
+    }
+    .related-books h2 {
+        font-size: 12px;
+    }
+    .khungSPDon h1 {
+        font-size: 10px;
+    }
+    .singleProduct {
+        height: 100px;
+    }
 }
 
 @media screen and (max-width: 280px) {
@@ -426,8 +438,12 @@ footer {
         width: 50%;
         margin-bottom: 20px;
     }
+    .butXemNB {
+        margin-top: 1em;
+    }
 }
 
-.butXemNB {
-    margin-top: 1em;
+.text-center {
+    color: orange;
+    border-radius: 0.25em;
 }

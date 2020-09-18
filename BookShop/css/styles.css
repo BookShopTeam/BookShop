@@ -807,7 +807,7 @@ header .cart .quntity {
         padding: 20px 0;
     }
     header .main-menu .navbar-light .navbar-nav .navbar-item {
-        padding: 0;
+        padding: 4px;
         margin-bottom: 10px;
     }
     header .main-menu .navbar-light .navbar-nav .navbar-item:after {
@@ -1191,6 +1191,12 @@ header .cart .quntity {
     }
 }
 
+@media screen and (max-width: 880px) {
+    .header .main-menu .navbar-light .navbar-nav .nav-link {
+        font-size: 0.7em;
+    }
+}
+
 @media only screen and (max-width: 640px) {
     .about-sec h1 {
         font-size: 26px;
@@ -1226,6 +1232,9 @@ header .cart .quntity {
         margin-bottom: 20px;
         margin-top: 100px;
     }
+    .khungSPDon h1 {
+        font-size: 20px;
+    }
 }
 
 .product-sec {
@@ -1233,7 +1242,7 @@ header .cart .quntity {
 }
 
 .product-sec h1 {
-    font-size: 36px;
+    font-size: 27px;
     font-weight: 500;
     margin-bottom: 40px;
     text-transform: uppercase;
@@ -1349,6 +1358,7 @@ header .cart .quntity {
 
 .product-sec .btn-sec .btn {
     margin-right: 15px;
+    margin-bottom: 12px;
 }
 
 .related-books h2 {
@@ -1370,6 +1380,14 @@ header .cart .quntity {
     }
     .related-books h2 {
         font-size: 28px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .slider-content {
+        -ms-flex: 0 0 450px;
+        flex: 0 0 450px;
+        max-width: 300px;
     }
 }
 
@@ -1409,7 +1427,7 @@ header .cart .quntity {
         padding: 0 5px;
     }
     .product-sec h1 {
-        font-size: 24px;
+        font-size: 13px;
     }
     .related-books h2 {
         font-size: 24px;
@@ -1546,4 +1564,8 @@ footer .copy-right .share span:hover {
         text-align: left;
         margin-top: 10px;
     }
+}
+
+.product-sec btn-sec .btn {
+    margin-bottom: 20px;
 }
