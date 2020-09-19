@@ -359,7 +359,8 @@ footer {
 
 .images_3_of_1 {
     width: 30.2%;
-    margin-bottom: 30px;
+    margin-bottom: 5%;
+    height: 200px;
 }
 
 .news_desc {
@@ -367,6 +368,8 @@ footer {
 }
 
 .images_3_of_1 img {
+    width: 80%;
+    height: 100%;
     display: block;
     border: 1px solid #E0E0E0;
 }
@@ -430,6 +433,16 @@ footer {
     .singleProduct {
         height: 100px;
     }
+    .images_3_of_1 img {
+        width: 80%;
+        height: 60%;
+    }
+    .news_desc p {
+        font-size: 0.5em;
+    }
+    .contentGioiThieu h2 {
+        font-size: 1.2rem;
+    }
 }
 
 @media screen and (max-width: 280px) {
@@ -446,4 +459,17 @@ footer {
 .text-center {
     color: orange;
     border-radius: 0.25em;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 1);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(255, 151, 0, 1);
+}
+
+.contentGioiThieu {
+    height: auto;
+    margin-bottom: 40px;
 }
