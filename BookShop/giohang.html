@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
     <meta charset="UTF-8">
     <title>Giỏ hàng</title>
@@ -15,6 +16,7 @@
     <link rel="stylesheet" href="css/myStyle.css" />
     <script src="js/jquery-1.11.1.min.js"></script>
 </head>
+
 <body>
     <header>
         <div class="header-top">
@@ -52,12 +54,14 @@
                                 <a href="DangNhap.html" class="nav-link">Đăng nhập</a>
                             </li>
                         </ul>
-                        <div class="cart my-2 my-lg-0">
-                            <span>
-                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                            </span>
-                            <span class="quntity">3</span>
-                        </div>
+                        <a href="GioHang.html">
+                            <div class="cart my-2 my-lg-0 menuGio">
+                                <span>
+                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                </span>
+                                <span class="quntity">3</span>
+                            </div>
+                        </a>
                         <form class="form-inline my-2 my-lg-0">
                             <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm..." aria-label="Search">
                             <span class="fa fa-search"></span>
@@ -91,7 +95,7 @@
                                         <input type="checkbox" checked>
                                     </div>
                                 </td>
-                                <td data-th = "Product">
+                                <td data-th="Product">
                                     <div class="col-img-prod">
                                         <img src="./images/img2.jpg" alt="Ảnh sản phẩm 1" class="img-responsive" width="100">
                                     </div>
@@ -99,11 +103,11 @@
                                 <td>
                                     <div style="text-align: left;">
                                         <a href="#">How to write a bestseller book</a>
-                                        <p> Số trang: 256</p> 
-                                        <p> NXB: Nhã Nam</p>                               
+                                        <p> Số trang: 256</p>
+                                        <p> NXB: Nhã Nam</p>
                                     </div>
                                 </td>
-                                <td data-th="Price">                        
+                                <td data-th="Price">
                                     <div>68.000đ</div>
                                 </td>
                                 <td data-th="Quantity">
@@ -132,19 +136,19 @@
                                         <input type="checkbox" checked>
                                     </div>
                                 </td>
-                                <td data-th = "Product">
+                                <td data-th="Product">
                                     <div class="col-img-prod">
                                         <img src="./images/img3.jpg" alt="Ảnh sản phẩm 1" class="img-responsive" width="100">
                                     </div>
                                 </td>
                                 <td>
-                                    <div  style="text-align: left;">
+                                    <div style="text-align: left;">
                                         <a href="#">7-day seft publishing mini course</a>
-                                        <p> Số trang: 307</p> 
-                                        <p> NXB: Nhã Nam</p>                               
+                                        <p> Số trang: 307</p>
+                                        <p> NXB: Nhã Nam</p>
                                     </div>
                                 </td>
-                                <td data-th="Price">                        
+                                <td data-th="Price">
                                     <div>74.000đ</div>
                                 </td>
                                 <td data-th="Quantity">
@@ -179,74 +183,73 @@
                             </tr>
                         </tfoot>
                     </table>
-                    
+
                 </div>
             </div>
         </div>
     </div>
-    
+
 
     <footer>
-    <div class="container footer-content">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="address1">
-                    <br />
-                    <br />
-                    <h4>Địa chỉ</h4>
-                    <h6>
-                        136 Hoàng Quốc Việt,
-                        Bắc Từ Liêm, Hà Nội
-                    </h6>
-                    <h6>Số điện thoại : 800 1234 5678</h6>
-                    <h6>Email : ShopQuocViet@gmail.com</h6>
-                </div>
-
-            </div>
-            <div class="col-md-4">
-                <div class="timing">
-                    <br />
-                    <br />
-                    <h4>Thời gian mở cửa</h4>
-                    <pre>Thứ 2 - Thứ 6: 7h - 10h</pre>
-                    <pre>​​Thứ 7:         8h - 10h</pre>
-                    <pre>​Chủ nhật:      8h - 11h</pre>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="navigation1">
-                    <br />
-                    <br />
-                    <h4>Shop Quốc Việt</h4>
-                    <ul>
-                        <li><a href="index.html">Trang chủ</a></li>
-                        <li><a href="about.html">Giới thiệu</a></li>
-                        <li><a href="privacy-policy.html">Chính sách giao hàng</a></li>
-                        <li><a href="terms-conditions.html">Chinh sách đổi trả</a></li>
-                        <li><a href="">Shop Quốc Việt trên facebook</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="copy-right">
-        <div class="container">
+        <div class="container footer-content">
             <div class="row">
-                <div class="col-md-6">
-                    <h5>Công ty trách nhiệm hữu hạn Quang Việt</h5>
+                <div class="col-md-4">
+                    <div class="address1">
+                        <br />
+                        <br />
+                        <h4>Địa chỉ</h4>
+                        <h6>
+                            136 Hoàng Quốc Việt, Bắc Từ Liêm, Hà Nội
+                        </h6>
+                        <h6>Số điện thoại : 800 1234 5678</h6>
+                        <h6>Email : ShopQuocViet@gmail.com</h6>
+                    </div>
+
                 </div>
-                <div class="col-md-6">
-                    <div class="share align-middle">
-                        <span class="fb"><i class="fa fa-facebook-official"></i></span>
-                        <span class="instagram"><i class="fa fa-instagram"></i></span>
-                        <span class="twitter"><i class="fa fa-twitter"></i></span>
-                        <span class="pinterest"><i class="fa fa-pinterest"></i></span>
-                        <span class="google"><i class="fa fa-google-plus"></i></span>
+                <div class="col-md-4">
+                    <div class="timing">
+                        <br />
+                        <br />
+                        <h4>Thời gian mở cửa</h4>
+                        <pre>Thứ 2 - Thứ 6: 7h - 10h</pre>
+                        <pre>​​Thứ 7:         8h - 10h</pre>
+                        <pre>​Chủ nhật:      8h - 11h</pre>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="navigation1">
+                        <br />
+                        <br />
+                        <h4>Shop Quốc Việt</h4>
+                        <ul>
+                            <li><a href="index.html">Trang chủ</a></li>
+                            <li><a href="about.html">Giới thiệu</a></li>
+                            <li><a href="privacy-policy.html">Chính sách giao hàng</a></li>
+                            <li><a href="terms-conditions.html">Chinh sách đổi trả</a></li>
+                            <li><a href="">Shop Quốc Việt trên facebook</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+        <div class="copy-right">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5>Công ty trách nhiệm hữu hạn Quang Việt</h5>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="share align-middle">
+                            <span class="fb"><i class="fa fa-facebook-official"></i></span>
+                            <span class="instagram"><i class="fa fa-instagram"></i></span>
+                            <span class="twitter"><i class="fa fa-twitter"></i></span>
+                            <span class="pinterest"><i class="fa fa-pinterest"></i></span>
+                            <span class="google"><i class="fa fa-google-plus"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 
