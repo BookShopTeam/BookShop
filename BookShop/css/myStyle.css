@@ -86,12 +86,25 @@ display:block;
 }
 
 .topicArticle {
+    height: 300px;
     width: 400px;
     left: 0;
     bottom: 10px;
     margin: 10px;
 }
 
-.articleList {
-    height: 40px;
+.header__navbar {
+    display: flex;
+}
+.answerQuestion {
+    width: 1200px;
+    height: 300px;
+    left: 400;
+    bottom: 10px;
+    margin: 10px;
+}
+
+.reason {
+    font-size: medium;
+    
 }
