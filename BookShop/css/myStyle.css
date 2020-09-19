@@ -1,6 +1,6 @@
-﻿<style type="text/css">.table&amp;amp;gt;tbody&amp;amp;gt;tr&amp;amp;gt;td, .table&amp;amp;gt;tfoot&amp;amp;gt;tr&amp;amp;gt;td {  
+﻿/*<style type="text/css">.table&amp;amp;gt;tbody&amp;amp;gt;tr&amp;amp;gt;td, .table&amp;amp;gt;tfoot&amp;amp;gt;tr&amp;amp;gt;td {  
 vertical-align: middle;
-}
+}*/
  
 .text-center{
 color: #fcba68;
@@ -83,4 +83,15 @@ display:block;
 table#cart tfoot td .btn {
 display:block;
 }
-}</style>
+}
+
+.topicArticle {
+    width: 400px;
+    left: 0;
+    bottom: 10px;
+    margin: 10px;
+}
+
+.articleList {
+    height: 40px;
+}
