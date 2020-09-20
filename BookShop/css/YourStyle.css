@@ -449,16 +449,24 @@ footer {
     .contentGioiThieu h2 {
         font-size: 1.2rem;
     }
-}
-
-@media screen and (max-width: 280px) {
-    .content-pagenation li {
-        display: block;
-        width: 50%;
-        margin-bottom: 20px;
+    .static h2 {
+        font-size: 13px;
     }
-    .butXemNB {
-        margin-top: 1em;
+    .optionSex {
+        margin-right: 10px;
+        margin-left: 5px;
+    }
+    .ThanhToan {
+        font-size: 10px;
+    }
+    .contentReview h3 {
+        font-size: 1.2rem;
+    }
+    .contentReview h4 {
+        font-size: 1rem;
+    }
+    .contentReview p {
+        font-size: 0.6em;
     }
 }
 
@@ -478,4 +486,72 @@ footer {
 .contentGioiThieu {
     height: auto;
     margin-bottom: 40px;
+}
+
+.optionSex {
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+.TieuDeThanhToan {
+    color: rgba(255, 151, 0, 1);
+}
+
+@media screen and (max-width: 440px) {
+    .optionSex {
+        margin-right: 10px;
+        margin-left: 5px;
+    }
+    .ThanhToan {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .content-pagenation li {
+        display: block;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .butXemNB {
+        margin-top: 1em;
+    }
+    .ThanhToan {
+        font-size: 8px;
+    }
+}
+
+.ThanhToan .btn-orange {
+    text-align: left;
+}
+
+.inputThanhToan {
+    border-radius: 4%;
+    border-color: rgb(255, 196, 0, 0.1);
+}
+
+.inputThanhToan:hover {
+    border-color: #000000;
+}
+
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
 }

@@ -34,7 +34,7 @@
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <a class="navbar-brand" href="TrangChu.html"><img src="images/logo.png" alt="logo"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="ChiTietSP.htmlnavbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -55,7 +55,7 @@
                                 <a href="DangNhap.html" class="nav-link">Đăng nhập</a>
                             </li>
                         </ul>
-                        <a href="GioHang.html">
+                        <a href="giohang.html">
                             <div class="cart my-2 my-lg-0 menuGio">
                                 <span>
                                     <i class="fa fa-shopping-cart" aria-hidden="true"></i>
@@ -120,8 +120,9 @@
                                             </li>
                                         </ul>
                                         <div class="btn-sec">
-                                            <button class="btn butThemVaoGioHang">Thêm vào giỏ hàng</button>
-                                            <a href="GioHang.html"><button class="btn black">Mua ngay</button></a>
+                                            <a class="btn butThemVaoGioHang" onclick="myFunction()">Thêm vào giỏ hàng</a>
+                                            <a href="GioHang.html" class="btn black">Mua ngay</a>
+                                            <div id="snackbar">Bạn đã thêm vào giỏ hàng thành công</div>
                                         </div>
                                     </div>
                                 </div>
@@ -271,7 +272,7 @@
                             <li><a href="GioiThieu.html">Giới thiệu</a></li>
                             <li><a href="GiaoHang.html">Chính sách giao hàng</a></li>
                             <li><a href="DoiTra.html">Chinh sách đổi trả</a></li>
-                            <li><a href="https://www.facebook.com/bookshop.org">Shop Quốc Việt trên facebook</a></li>
+                            <li><a href="https://www.facebook.com/bookshop.org" target="_blank">Shop Quốc Việt trên facebook</a></li>
                         </ul>
                     </div>
                 </div>
@@ -305,9 +306,14 @@
             var srcAnhNho = $(this).attr('src')
             $(".anhMax").attr('src', srcAnhNho)
         })
-        $(".butThemVaoGioHang").click(function() {
-            alert("Đã thêm sản phẩm vào giỏ hàng");
-        })
+
+        function myFunction() {
+            var x = document.getElementById("snackbar");
+            x.className = "show";
+            setTimeout(function() {
+                x.className = x.className.replace("show", "");
+            }, 3000);
+        }
     </script>
 </body>
 

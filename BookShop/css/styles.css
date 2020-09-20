@@ -1161,7 +1161,7 @@ header .cart .quntity {
 
 @media only screen and (max-width: 1000px) {
     .static h2 {
-        font-size: 24px;
+        font-size: 18px;
     }
     .static .recent-book-sec .col-md-3 {
         padding: 0 20px;

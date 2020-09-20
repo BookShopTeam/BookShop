@@ -48,7 +48,7 @@
                                 <a href="DanhMucSanPham.html" class="nav-link">Danh mục sách</a>
                             </li>
                             <li class="navbar-item">
-                                <a href="ReviewSach.html" class="nav-link"> Review sách</a>
+                                <a href="ReviewSach.html" class="nav-link">Review sách</a>
                             </li>
                             <li class="navbar-item">
                                 <a href="GioiThieu.html" class="nav-link">Thông tin</a>
@@ -80,37 +80,67 @@
             <div class="col-sm-1">
 
             </div>
-            <div class="col-sm-3">
-                <nav class="header__navbar">
-                    <div>
-                        <h1 style="border: 12px; color: #fcba68;">Bài viết</h1>
-                        <div class="topicArticle">
-                            <ul>
-                                <li><a href="DoiTra.html">Điều khoản và quy định</a></li>
-                                <li><a href="answer2DoiTra.html">Quy trình đổi trả như thế nào?</a></li>
-                            </ul>
-                        </div>
+            <div class="col-sm-10">
+                <table class="table">
+                    <div class="TieuDeThanhToan">
+                        <p>Thông tin thanh toán:</p>
                     </div>
-                </nav>
-            </div>
-            <div class="col-sm-7">
-                <nav class="header__navbar">
-                    <div class="answerQuestion">
-                        <h1>Điều khoản và quy định</h1>
-                        <div>
-                            <ul class="reason">
-                                <li>Thời gian đổi trả: không quá 15 ngày kể từ ngày thanh toán đơn hàng</li>
-                                <li>Sách không bị rách, mất bìa, nhăn góc, thiếu trang, sách còn mới nguyên. </li>
-                                <li>Còn hóa đơn mua hàng nguyên vẹn không nhàu nát, bị rách, mất góc.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
+                    <tr>
+                        <td class="ThanhToan">
+                            <label><b>Họ và tên:</b></label>
+                        </td>
+                        <td class="ThanhToan">
+                            <input type="text" placeholder="họ và tên" class="inputThanhToan" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ThanhToan">
+                            <label><b>Số điện thoại:</b></label>
+                        </td>
+                        <td class="ThanhToan">
+                            <input type="text" placeholder="số điện thoại" class="inputThanhToan" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ThanhToan">
+                            <label><b>Địa chỉ:</b></label>
+                        </td>
+                        <td class="ThanhToan">
+                            <input type="text" placeholder="địa chỉ" class="inputThanhToan" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ThanhToan">
+                            <label><b>Nam/Nữ:</b></label>
+                        </td>
+                        <td class="ThanhToan">
+                            <span>Nam</span><input type="radio" name="customer_gender" value="nam" class="optionSex">
+                            <span>Nữ</span><input type="radio" name="customer_gender" value="nu" class="optionSex">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ThanhToan">
+                            <label><b>Số tiền:</b></label>
+                        </td>
+                        <td class="ThanhToan">
+                            <p><b>236000 đồng</b></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ThanhToan">
+                        </td>
+                        <td class="ThanhToan">
+                            <div class="btn-sec">
+                                <a href="#" class="btn orange-btn datHang" onclick="myFunction()">Đặt hàng</a>
+                                <div id="snackbar">Bạn đã đặt hàng thành công</div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
             </div>
             <div class="col-sm-1">
 
             </div>
-
         </div>
     </div>
 
@@ -179,6 +209,16 @@
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/owl.carousel.min.js"></script>
     <script src="js/custom.js"></script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("snackbar");
+            x.className = "show";
+            setTimeout(function() {
+                x.className = x.className.replace("show", "");
+            }, 3000);
+        }
+    </script>
+
 </body>
 
 </html>
